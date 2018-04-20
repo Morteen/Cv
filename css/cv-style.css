@@ -13,8 +13,24 @@ body{
     overflow:hidden;
 }
 .container ul{
-    float:center right;
+   
     list-style: none;
+   
+}
+.container table td{
+    
+    
+    margin: 15px;
+    padding: 10px;
+    
+ }
+#presentasjon{
+    display:inline;
+    list-style: none;
+}
+#adressList{
+    list-style: none;
+    
 }
 #profilbilde{
     margin-right: 50px;
@@ -65,16 +81,16 @@ body{
 }
 #main{
     float:left;
-    width:30%;
+    width:23%;
     padding:0 15px;
     box-sizing:border-box;
 }
 #sidebar{
     float:right;
-    width:70%;
-    padding:10px;
+    width:77%;
+    padding:30px;
     
-        box-sizing:border-box;
+    box-sizing:border-box;
 }
 #main-footer{
     background:#333;
