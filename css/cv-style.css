@@ -41,6 +41,9 @@ body{
     font: 3px;
 }
 #main-header{
+    width: 99%;
+    margin: auto;
+    border-radius: 20px;
     background-color:coral;
     color:#fff;
 
@@ -82,7 +85,7 @@ body{
 #main{
     float:left;
     width:23%;
-    padding:0 15px;
+    padding:15px,15px,15px,15px;
     box-sizing:border-box;
 }
 #sidebar{
@@ -92,15 +95,36 @@ body{
     
     box-sizing:border-box;
 }
+.year{
+    font-weight: bold;
+}
 #main-footer{
+    width: 98%;
+   margin: auto;
+   
+    
+    border-radius: 10px;
     background:#333;
     color:#fff;
     text-align:center;
     padding:10px;
     margin-top:30px;
     height:50px;
+   
 
 }
+
+.reflist{
+    margin-top: 10px;
+    padding: 5px;
+}
+.refname{
+    font-weight: bolder;
+}
+
+
+
+
 @media(max-width:600px){
 #main{
     width:100%;
@@ -110,4 +134,5 @@ body{
     width:100%;
     float:none;
 }
+
 }
