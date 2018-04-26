@@ -127,6 +127,18 @@ body{
    
 
 }
+.opne-lukke{
+    font-style: italic;
+    font-size: 12px;
+}
+#lukke{
+    margin-top: 25px;
+    padding: 8px;
+    color: red;
+}
+#ferdigheter table td{
+    color: silver;
+  }
 #main-footer a{
     color:#fff;
     text-decoration:none;
