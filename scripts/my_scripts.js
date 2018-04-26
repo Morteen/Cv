@@ -10,4 +10,19 @@ $("#lukke").click(function(){
     $("#opne").show();
     
     });
+
+    $("#ferdighter td").mouseenter(function(){
+        $(this).css("background-color", "#cccccc");
+      
+      
+       
+    });
+    $("#ferdighter td").mouseleave(function(){
+        $(this).css("background-color","#f4f4f4;");
+       
+    });
+    
+    
+   
+
 });
